@@ -35,4 +35,4 @@ console.log("B " ,myArray); //output: [0, 1, 2, 3, 4, 5]
 // splice
 const myn2 = myArray.splice(2, 3); //output: [2, 3, 4]
 console.log(myn2);
-console.log("C " ,myArray); //output: [0, 1, 5] 
+console.log("C " ,myArray); //output: [0, 1, 5]     
