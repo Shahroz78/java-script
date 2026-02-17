@@ -60,11 +60,3 @@ console.log(UserloggedIn("shahroz khan")); // this will return "shahroz khan is 
 //const isLoggedIn = UserloggedIn("shahroz khan"); // this will return true because the username is "shahroz khan"
 //sconsole.log("isLoggedIn:", isLoggedIn); // this will print true because the UserloggedIn function returns true for the username "shahroz khan"
 
-
-
-
-
-
-
-
-
