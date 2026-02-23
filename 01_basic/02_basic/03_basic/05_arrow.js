@@ -46,3 +46,13 @@ console.log(addtwo(5, 10)); // this will print 15 because the function is adding
 const addone = (num1, num2) => (num1 + num2)   
 const addthird = (num1, num2) => ({username: "shahroz khan"}) // this will return an object literal with the username property set to "shahroz khan"
 console.log(addthird(5, 10));
+
+//imeediately invoked function expression (IIFE) using arrow 
+(() => {
+    console.log(`Database is connected successfully.And the connection is made by ${"shahroz khan"}`)
+})(); // this will print "Database is connected successfully.And the connection is made by shahroz khan".
+//  Because the function is immediately invoked after it is defined and it is using the arrow function syntax which does not have its own this keyword,
+//  so it is referring to the global object which does not have a username property, but we are directly using the string "shahroz khan" in the console.log statement.
+(function chai(){
+    console.log(`Database is connected successfully.And the connection is made by ${"shahroz khan"}`)
+})();
