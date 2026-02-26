@@ -77,3 +77,16 @@ if(Userloggedin && debbitCart && amount > 500)
 if(loggedInFromGoogle || loggedInFromFacebook || loggedInFromEmail){
     console.log("User is logged In "); // this will print "User is logged in from google or facebook or email" because the condition in the if statement is true
 }
+
+//null coalescing operators (??): null, undefined
+let val1;
+//val1 = 5 ?? 10
+//val1 = null ?? 10
+//val1 = undefined ?? 15
+val1 = null ?? 10 ?? 20
+console.log(val1);
+
+//terniary operators
+// condition ? true : false
+const IseTeaPrice = 100
+IseTeaPrice <= 80 ? console.log("Less Then 80") : console.log("More Then 80")
